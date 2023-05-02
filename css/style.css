@@ -275,7 +275,7 @@ body {
     color: inherit;
     font-size: 16px;
 }
-.hero main {
+.hero section {
 position: absolute;
 text-align: center;
 width: 90%;
@@ -299,14 +299,14 @@ transform: translate(-50% , -50%);
   height: 4px;
   background-color: white;
 }
-.hero main .primary-title {
+.hero section .primary-title {
     font-size: 34px;
     transform: translateY(5px);
 }
-.hero main .primary-title span {
+.hero section .primary-title span {
     color: var(--primary-color);
 }
-.hero main .primary-title + p {
+.hero section .primary-title + p {
     font-size: 20px;
     padding-bottom: 10px;
 }
